@@ -15,6 +15,9 @@
 		38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E63255BC64800819B12 /* LaunchScreen.storyboard */; };
 		38C92E70255BC64800819B12 /* MagicKettleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C92E6F255BC64800819B12 /* MagicKettleTests.swift */; };
 		38C92E7B255BC64800819B12 /* MagicKettleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C92E7A255BC64800819B12 /* MagicKettleUITests.swift */; };
+		38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
+		38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
+		38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		38C92E76255BC64800819B12 /* MagicKettleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicKettleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C92E7A255BC64800819B12 /* MagicKettleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicKettleUITests.swift; sourceTree = "<group>"; };
 		38C92E7C255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C92E8B255BC67900819B12 /* kettle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kettle.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		38C92E57255BC64600819B12 /* MagicKettle */ = {
 			isa = PBXGroup;
 			children = (
+				38C92E8B255BC67900819B12 /* kettle.mp4 */,
 				38C92E58255BC64600819B12 /* AppDelegate.swift */,
 				38C92E5A255BC64600819B12 /* art.scnassets */,
 				38C92E5C255BC64600819B12 /* ViewController.swift */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C92E5B255BC64600819B12 /* art.scnassets in Resources */,
+				38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */,
 				38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */,
 				38C92E62255BC64800819B12 /* Assets.xcassets in Resources */,
 				38C92E60255BC64600819B12 /* Main.storyboard in Resources */,
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
