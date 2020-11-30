@@ -6,6 +6,9 @@
   "resources" : [
     {
       "filename" : "kettle.arreferenceimage"
+    },
+    {
+      "filename" : "one-dollar-front.arreferenceimage"
     }
   ]
 }

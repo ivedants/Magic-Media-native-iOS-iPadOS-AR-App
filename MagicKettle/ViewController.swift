@@ -9,15 +9,34 @@ import UIKit
 import SceneKit
 import ARKit
 import RealityKit
-
+import Speech
 class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var coachingOverlay: ARCoachingOverlayView!
 //    @IBOutlet var arView: ARView!
     
+    @IBOutlet weak var recordingButton: UIButton!
+    
+    /// Speech variables
+    var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
+    var recognitionTask: SFSpeechRecognitionTask?
+    let audioEngine = AVAudioEngine()
+    let speechRecognizer: SFSpeechRecognizer! =
+        SFSpeechRecognizer(locale: Locale.init(identifier: "en-US"))
+    @IBOutlet weak var recognizedText: UITextView!
+    var cancelCalled = false
+    var audioSession = AVAudioSession.sharedInstance()
+    var timer: Timer?
+    let speechService: SpeechService = KeywordsSpeechService()
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sceneView.autoenablesDefaultLighting = true
         
 //        presentCoachingOverlay()
         
@@ -36,16 +55,27 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         // Create a session configuration
         let configuration = ARImageTrackingConfiguration()
         
+//        if let trackOneDollarFront = ARReferenceImage.referenceImages(inGroupNamed: "oneDollar", bundle: Bundle.main) {
+//
+//        configuration.trackingImages = trackOneDollarFront
+//
+//            configuration.maximumNumberOfTrackedImages = 3
+//
+//            print("One Dollar Bill Front Tracked Successfully!")
+//
+//        }
+        
         if let trackedImages = ARReferenceImage.referenceImages(inGroupNamed: "kettleImages", bundle: Bundle.main) {
             configuration.trackingImages = trackedImages
-            
-            configuration.maximumNumberOfTrackedImages = 1
-            
+
+            configuration.maximumNumberOfTrackedImages = 3
+
             print("Images found")
-            
+
 
         }
 
+        
         // Run the view's session
         sceneView.session.run(configuration)
         
@@ -71,8 +101,39 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         
         if let imageAnchor = anchor as? ARImageAnchor {
             
+          // print(imageAnchor.referenceImage.name)
+            
           //  coachingOverlayViewDidDeactivate(coachingOverlayTemp)
             
+            if imageAnchor.referenceImage.name == "one-dollar-front" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/george.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                        //noteNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.y + 2, z: planeNode.position.z)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+
+            }
+            
+            if imageAnchor.referenceImage.name == "kettle" {
+                            
             let videoNode = SKVideoNode(fileNamed: "kettle.mp4")
             
             videoNode.play()
@@ -95,6 +156,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             
             node.addChildNode(planeNode)
             
+            }
+            
         }
         
         return node
@@ -109,6 +172,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 }
                 }
             }
+    
+        
     
 //    public func coachingOverlayViewDidDeactivate(_ coachingOverlayTemp: ARCoachingOverlayView) {
 //        coachingOverlayTemp.activatesAutomatically = false
@@ -158,7 +223,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         // Reset the session.
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = [.horizontal, .vertical]
-        sceneView.session.run(configuration, options: [.resetTracking])
+        sceneView.session.run(configuration, options: [.resetTracking, .removeExistingAnchors])
         implementCoaching()
 
         // Custom actions to restart the AR experience.
@@ -168,5 +233,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
     func sessionWasInterrupted(_ session: ARSession) {
         implementCoaching()
     }
+    
+   
+    
 }
-        

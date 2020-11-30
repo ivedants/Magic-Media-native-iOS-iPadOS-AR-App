@@ -1,37 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="MagicKettle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="892"/>
                             </arscnView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MVr-k1-bDp">
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8O8-7m-roY" userLabel="Top View">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="657"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kEf-WI-Dhp" userLabel="Mic View">
+                                        <rect key="frame" x="0.0" y="661" width="428" height="187"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SCH-ru-uZC">
+                                                <rect key="frame" x="0.0" y="19" width="428" height="149"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXX-5U-Ow6">
+                                                        <rect key="frame" x="190" y="0.0" width="48" height="88"/>
+                                                        <state key="normal" image="mic"/>
+                                                        <connections>
+                                                            <action selector="startRecordingWithSender:" destination="BV1-FR-VrT" eventType="touchUpInside" id="N7s-9h-PEG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qIT-lv-gF7" userLabel="Recognized Text">
+                                                        <rect key="frame" x="0.0" y="96" width="428" height="53"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qIT-lv-gF7" firstAttribute="leading" secondItem="SCH-ru-uZC" secondAttribute="leading" id="eFa-pW-XEg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qIT-lv-gF7" secondAttribute="bottom" id="hqp-WK-ZPa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qIT-lv-gF7" secondAttribute="trailing" id="yaA-eN-hwG"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="SCH-ru-uZC" firstAttribute="centerX" secondItem="kEf-WI-Dhp" secondAttribute="centerX" id="FMH-fS-QX8"/>
+                                            <constraint firstAttribute="bottom" secondItem="SCH-ru-uZC" secondAttribute="bottom" constant="19" id="H2B-eD-vvS"/>
+                                            <constraint firstAttribute="trailing" secondItem="SCH-ru-uZC" secondAttribute="trailing" id="aNF-Wj-xkZ"/>
+                                            <constraint firstItem="SCH-ru-uZC" firstAttribute="centerY" secondItem="kEf-WI-Dhp" secondAttribute="centerY" id="bum-w8-0Re"/>
+                                            <constraint firstItem="SCH-ru-uZC" firstAttribute="centerY" secondItem="kEf-WI-Dhp" secondAttribute="centerY" id="g3V-3G-NxP"/>
+                                            <constraint firstItem="SCH-ru-uZC" firstAttribute="centerX" secondItem="kEf-WI-Dhp" secondAttribute="centerX" id="hgZ-o1-s81"/>
+                                            <constraint firstItem="SCH-ru-uZC" firstAttribute="leading" secondItem="kEf-WI-Dhp" secondAttribute="leading" id="x0v-2g-crl"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8O8-7m-roY" secondAttribute="trailing" id="8rm-fP-Q1a"/>
+                                    <constraint firstAttribute="trailing" secondItem="kEf-WI-Dhp" secondAttribute="trailing" id="AxR-Th-tiI"/>
+                                    <constraint firstItem="8O8-7m-roY" firstAttribute="top" secondItem="MVr-k1-bDp" secondAttribute="top" id="ELd-Ic-Mta"/>
+                                    <constraint firstItem="kEf-WI-Dhp" firstAttribute="top" secondItem="MVr-k1-bDp" secondAttribute="top" constant="661" id="NNq-AE-AEJ"/>
+                                    <constraint firstItem="kEf-WI-Dhp" firstAttribute="top" secondItem="8O8-7m-roY" secondAttribute="bottom" constant="4" id="Sdj-Lf-v2c"/>
+                                    <constraint firstItem="kEf-WI-Dhp" firstAttribute="leading" secondItem="MVr-k1-bDp" secondAttribute="leading" id="bm1-lD-0ja"/>
+                                    <constraint firstItem="8O8-7m-roY" firstAttribute="leading" secondItem="MVr-k1-bDp" secondAttribute="leading" id="brM-TM-bjv"/>
+                                    <constraint firstItem="kEf-WI-Dhp" firstAttribute="top" secondItem="8O8-7m-roY" secondAttribute="bottom" constant="4" id="hPF-2H-N4V"/>
+                                    <constraint firstAttribute="bottom" secondItem="kEf-WI-Dhp" secondAttribute="bottom" id="wR9-lj-iCP"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="MVr-k1-bDp" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="Qfc-yB-TXs"/>
+                            <constraint firstAttribute="trailing" secondItem="MVr-k1-bDp" secondAttribute="trailing" id="QiE-aL-Bec"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="MVr-k1-bDp" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="bs5-Mb-sgD"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="MVr-k1-bDp" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="v2z-8b-ShZ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
                     <connections>
+                        <outlet property="recognizedText" destination="qIT-lv-gF7" id="kz1-pb-Lly"/>
+                        <outlet property="recordingButton" destination="HXX-5U-Ow6" id="HM9-v5-xF0"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-197.66355140186914" y="77.753779697624196"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mic" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

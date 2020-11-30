@@ -18,6 +18,21 @@
 		38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
 		38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
 		38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38C92E8B255BC67900819B12 /* kettle.mp4 */; };
+		38CD142825668E9B00AA0B95 /* ViewController+Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD142725668E9B00AA0B95 /* ViewController+Speech.swift */; };
+		38CD142925668E9B00AA0B95 /* ViewController+Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD142725668E9B00AA0B95 /* ViewController+Speech.swift */; };
+		38CD142A25668E9B00AA0B95 /* ViewController+Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD142725668E9B00AA0B95 /* ViewController+Speech.swift */; };
+		38CD1438257379FD00AA0B95 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1437257379FD00AA0B95 /* SpeechService.swift */; };
+		38CD1439257379FE00AA0B95 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1437257379FD00AA0B95 /* SpeechService.swift */; };
+		38CD143A257379FE00AA0B95 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD1437257379FD00AA0B95 /* SpeechService.swift */; };
+		38CD143F25737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */; };
+		38CD144025737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */; };
+		38CD144125737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */; };
+		38CD14462573AC6A00AA0B95 /* AnimationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */; };
+		38CD14472573AC6A00AA0B95 /* AnimationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */; };
+		38CD14482573AC6A00AA0B95 /* AnimationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */; };
+		38CD144D2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
+		38CD144E2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
+		38CD144F2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,11 @@
 		38C92E7A255BC64800819B12 /* MagicKettleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicKettleUITests.swift; sourceTree = "<group>"; };
 		38C92E7C255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C92E8B255BC67900819B12 /* kettle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kettle.mp4; sourceTree = "<group>"; };
+		38CD142725668E9B00AA0B95 /* ViewController+Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Speech.swift"; sourceTree = "<group>"; };
+		38CD1437257379FD00AA0B95 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsSpeechService.swift; sourceTree = "<group>"; };
+		38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetails.swift; sourceTree = "<group>"; };
+		38CD144C2573AF2700AA0B95 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,11 @@
 				38C92E58255BC64600819B12 /* AppDelegate.swift */,
 				38C92E5A255BC64600819B12 /* art.scnassets */,
 				38C92E5C255BC64600819B12 /* ViewController.swift */,
+				38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */,
+				38CD1437257379FD00AA0B95 /* SpeechService.swift */,
+				38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */,
+				38CD142725668E9B00AA0B95 /* ViewController+Speech.swift */,
+				38CD144C2573AF2700AA0B95 /* VirtualObject.swift */,
 				38C92E5E255BC64600819B12 /* Main.storyboard */,
 				38C92E61255BC64800819B12 /* Assets.xcassets */,
 				38C92E63255BC64800819B12 /* LaunchScreen.storyboard */,
@@ -268,7 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C92E5D255BC64600819B12 /* ViewController.swift in Sources */,
+				38CD143F25737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */,
 				38C92E59255BC64600819B12 /* AppDelegate.swift in Sources */,
+				38CD142825668E9B00AA0B95 /* ViewController+Speech.swift in Sources */,
+				38CD1438257379FD00AA0B95 /* SpeechService.swift in Sources */,
+				38CD144D2573AF2700AA0B95 /* VirtualObject.swift in Sources */,
+				38CD14462573AC6A00AA0B95 /* AnimationDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CD142925668E9B00AA0B95 /* ViewController+Speech.swift in Sources */,
+				38CD14472573AC6A00AA0B95 /* AnimationDetails.swift in Sources */,
+				38CD144E2573AF2700AA0B95 /* VirtualObject.swift in Sources */,
 				38C92E70255BC64800819B12 /* MagicKettleTests.swift in Sources */,
+				38CD1439257379FE00AA0B95 /* SpeechService.swift in Sources */,
+				38CD144025737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CD142A25668E9B00AA0B95 /* ViewController+Speech.swift in Sources */,
+				38CD14482573AC6A00AA0B95 /* AnimationDetails.swift in Sources */,
+				38CD144F2573AF2700AA0B95 /* VirtualObject.swift in Sources */,
 				38C92E7B255BC64800819B12 /* MagicKettleUITests.swift in Sources */,
+				38CD143A257379FE00AA0B95 /* SpeechService.swift in Sources */,
+				38CD144125737A8500AA0B95 /* KeywordsSpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
