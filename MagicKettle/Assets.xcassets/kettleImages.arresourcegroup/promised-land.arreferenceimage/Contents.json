@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "promised-land.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.17999999999999999
+  }
+}

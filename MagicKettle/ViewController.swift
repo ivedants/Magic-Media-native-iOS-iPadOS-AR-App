@@ -194,6 +194,128 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 playJacksonAudio()
             }
             
+            if imageAnchor.referenceImage.name == "listerine" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/listerine.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                        //noteNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.y + 2, z: planeNode.position.z)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                // playJacksonAudio()
+            }
+
+            if imageAnchor.referenceImage.name == "salmon" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/salmon.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                        //noteNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.y + 2, z: planeNode.position.z)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                // playJacksonAudio()
+            }
+
+            if imageAnchor.referenceImage.name == "obama-model" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/obama.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                       
+                        
+                       // noteNode.position = SCNVector3(x: planeNode.position.x, y: (planeNode.position.y + noteNode.boundingSphere.radius), z: planeNode.position.z)
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                                                
+                     //   pokeNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.x + pokeNode.boundingSphere.radius, z: planeNode.position.x)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                // playJacksonAudio()
+            }
+
+            
+            if imageAnchor.referenceImage.name == "furniture" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/coffee-table.scn") {
+                    
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                       
+                        
+                       // noteNode.position = SCNVector3(x: planeNode.position.x, y: (planeNode.position.y + noteNode.boundingSphere.radius), z: planeNode.position.z)
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                                                
+                     //   pokeNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.x + pokeNode.boundingSphere.radius, z: planeNode.position.x)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                // playJacksonAudio()
+            }
+            
+            
             if imageAnchor.referenceImage.name == "kettle" {
                             
             let videoNode = SKVideoNode(fileNamed: "kettle.mp4")
@@ -275,6 +397,110 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             if imageAnchor.referenceImage.name == "twenty-dollar-back" {
                             
             let videoNode = SKVideoNode(fileNamed: "twenty-dollar.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+
+            if imageAnchor.referenceImage.name == "costco-auto-program-image" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "costco-auto-program.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+
+            if imageAnchor.referenceImage.name == "costco-mexico" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "mexico.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+
+            if imageAnchor.referenceImage.name == "sensodyne" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "sensodyne.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+            
+            if imageAnchor.referenceImage.name == "promised-land" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "promised-land.mp4")
             
             videoNode.play()
             

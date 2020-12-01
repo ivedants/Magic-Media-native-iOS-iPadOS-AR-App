@@ -51,6 +51,18 @@
 		38CD14A425761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
 		38CD14A525761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
 		38CD14A625761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
+		38CD14AE2576339000AA0B95 /* costco-auto-program.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14AD2576339000AA0B95 /* costco-auto-program.mp4 */; };
+		38CD14AF2576339000AA0B95 /* costco-auto-program.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14AD2576339000AA0B95 /* costco-auto-program.mp4 */; };
+		38CD14B02576339000AA0B95 /* costco-auto-program.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14AD2576339000AA0B95 /* costco-auto-program.mp4 */; };
+		38CD14BB2576368500AA0B95 /* mexico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14BA2576368500AA0B95 /* mexico.mp4 */; };
+		38CD14BC2576368500AA0B95 /* mexico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14BA2576368500AA0B95 /* mexico.mp4 */; };
+		38CD14BD2576368500AA0B95 /* mexico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14BA2576368500AA0B95 /* mexico.mp4 */; };
+		38CD14C825763B0000AA0B95 /* sensodyne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14C725763B0000AA0B95 /* sensodyne.mp4 */; };
+		38CD14C925763B0000AA0B95 /* sensodyne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14C725763B0000AA0B95 /* sensodyne.mp4 */; };
+		38CD14CA25763B0000AA0B95 /* sensodyne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14C725763B0000AA0B95 /* sensodyne.mp4 */; };
+		38CD14D525764B6700AA0B95 /* promised-land.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14D425764B6600AA0B95 /* promised-land.mp4 */; };
+		38CD14D625764B6700AA0B95 /* promised-land.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14D425764B6600AA0B95 /* promised-land.mp4 */; };
+		38CD14D725764B6700AA0B95 /* promised-land.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14D425764B6600AA0B95 /* promised-land.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +109,10 @@
 		38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jackson-quote.mp3"; sourceTree = "<group>"; };
 		38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ten-dollar.mp4"; sourceTree = "<group>"; };
 		38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "twenty-dollar.mp4"; sourceTree = "<group>"; };
+		38CD14AD2576339000AA0B95 /* costco-auto-program.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "costco-auto-program.mp4"; sourceTree = "<group>"; };
+		38CD14BA2576368500AA0B95 /* mexico.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mexico.mp4; sourceTree = "<group>"; };
+		38CD14C725763B0000AA0B95 /* sensodyne.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sensodyne.mp4; sourceTree = "<group>"; };
+		38CD14D425764B6600AA0B95 /* promised-land.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "promised-land.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +168,10 @@
 				38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */,
 				38C92E8B255BC67900819B12 /* kettle.mp4 */,
 				38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */,
+				38CD14AD2576339000AA0B95 /* costco-auto-program.mp4 */,
+				38CD14BA2576368500AA0B95 /* mexico.mp4 */,
+				38CD14C725763B0000AA0B95 /* sensodyne.mp4 */,
+				38CD14D425764B6600AA0B95 /* promised-land.mp4 */,
 				38C92E58255BC64600819B12 /* AppDelegate.swift */,
 				38C92E5A255BC64600819B12 /* art.scnassets */,
 				38C92E5C255BC64600819B12 /* ViewController.swift */,
@@ -300,11 +320,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
+				38CD14C825763B0000AA0B95 /* sensodyne.mp4 in Resources */,
+				38CD14D525764B6700AA0B95 /* promised-land.mp4 in Resources */,
 				38CD14A425761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
 				38CD147F2575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38CD14862575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD149D25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
+				38CD14BB2576368500AA0B95 /* mexico.mp4 in Resources */,
 				38CD14902575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
+				38CD14AE2576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
 				38C92E5B255BC64600819B12 /* art.scnassets in Resources */,
 				38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */,
 				38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */,
@@ -320,9 +344,13 @@
 				38CD14912575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
 				38CD149E25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
 				38CD14A525761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
+				38CD14BC2576368500AA0B95 /* mexico.mp4 in Resources */,
+				38CD14D625764B6700AA0B95 /* promised-land.mp4 in Resources */,
 				38CD14802575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */,
 				38CD14872575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
+				38CD14C925763B0000AA0B95 /* sensodyne.mp4 in Resources */,
+				38CD14AF2576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
 				38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,9 +362,13 @@
 				38CD14922575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
 				38CD149F25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
 				38CD14A625761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
+				38CD14BD2576368500AA0B95 /* mexico.mp4 in Resources */,
+				38CD14D725764B6700AA0B95 /* promised-land.mp4 in Resources */,
 				38CD14812575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */,
 				38CD14882575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
+				38CD14CA25763B0000AA0B95 /* sensodyne.mp4 in Resources */,
+				38CD14B02576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
 				38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
