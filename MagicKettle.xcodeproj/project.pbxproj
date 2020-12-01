@@ -33,12 +33,24 @@
 		38CD144D2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
 		38CD144E2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
 		38CD144F2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
-		38CD14582575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
-		38CD14592575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
-		38CD145A2575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
 		38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
 		38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
 		38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
+		38CD147F2575CF4400AA0B95 /* one-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */; };
+		38CD14802575CF4400AA0B95 /* one-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */; };
+		38CD14812575CF4400AA0B95 /* one-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */; };
+		38CD14862575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */; };
+		38CD14872575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */; };
+		38CD14882575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */; };
+		38CD14902575D27500AA0B95 /* jackson-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */; };
+		38CD14912575D27500AA0B95 /* jackson-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */; };
+		38CD14922575D27500AA0B95 /* jackson-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */; };
+		38CD149D25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */; };
+		38CD149E25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */; };
+		38CD149F25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */; };
+		38CD14A425761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
+		38CD14A525761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
+		38CD14A625761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,8 +91,12 @@
 		38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsSpeechService.swift; sourceTree = "<group>"; };
 		38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetails.swift; sourceTree = "<group>"; };
 		38CD144C2573AF2700AA0B95 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
-		38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "washigton-quote.m4a"; sourceTree = "<group>"; };
 		38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "washington-quote.mp3"; sourceTree = "<group>"; };
+		38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "one-dollar.mp4"; sourceTree = "<group>"; };
+		38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hamilton-quote.mp3"; sourceTree = "<group>"; };
+		38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jackson-quote.mp3"; sourceTree = "<group>"; };
+		38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ten-dollar.mp4"; sourceTree = "<group>"; };
+		38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "twenty-dollar.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +148,10 @@
 		38C92E57255BC64600819B12 /* MagicKettle */ = {
 			isa = PBXGroup;
 			children = (
+				38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */,
+				38CD149C25760C4C00AA0B95 /* ten-dollar.mp4 */,
 				38C92E8B255BC67900819B12 /* kettle.mp4 */,
+				38CD14A325761BCE00AA0B95 /* twenty-dollar.mp4 */,
 				38C92E58255BC64600819B12 /* AppDelegate.swift */,
 				38C92E5A255BC64600819B12 /* art.scnassets */,
 				38C92E5C255BC64600819B12 /* ViewController.swift */,
@@ -170,8 +189,9 @@
 		38CD14562575B6A800AA0B95 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */,
 				38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */,
+				38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */,
+				38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -280,11 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
+				38CD14A425761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
+				38CD147F2575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
+				38CD14862575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
+				38CD149D25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
+				38CD14902575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
 				38C92E5B255BC64600819B12 /* art.scnassets in Resources */,
 				38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */,
 				38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */,
 				38C92E62255BC64800819B12 /* Assets.xcassets in Resources */,
-				38CD14582575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
 				38C92E60255BC64600819B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +317,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38CD14592575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
+				38CD14912575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
+				38CD149E25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
+				38CD14A525761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
+				38CD14802575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CD14872575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,8 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38CD145A2575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
+				38CD14922575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
+				38CD149F25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
+				38CD14A625761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
+				38CD14812575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CD14882575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

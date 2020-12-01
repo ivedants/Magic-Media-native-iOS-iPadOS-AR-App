@@ -71,7 +71,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         if let trackedImages = ARReferenceImage.referenceImages(inGroupNamed: "kettleImages", bundle: Bundle.main) {
             configuration.trackingImages = trackedImages
 
-            configuration.maximumNumberOfTrackedImages = 3
+            configuration.maximumNumberOfTrackedImages = 10
 
             print("Images found")
 
@@ -132,39 +132,67 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
 
                     }
                 }
-
-                //Using AVQueuePlayer
-//                if let url = Bundle.main.url(forResource: "washington-quote", withExtension: "m4a") {
-//                        audioPlayer.removeAllItems()
-//                        audioPlayer.insert(AVPlayerItem(url: url), after: nil)
-//                        audioPlayer.play()
-//                    }
-                
-                //Using AudioPlayer
-//                let sound = Bundle.main.path(forResource: "washington-quote", ofType: "m4a", inDirectory: "Sounds")
-//
-//                do {
-//                    audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-//                }
-//                catch {
-//                    print(error)
-//                }
-//
-//                audioPlayer.play()
-                
-//                guard let url = Bundle.main.url(forResource: "washington-quote", withExtension: "m4a") else {
-//                    print("Error to get mp3 file")
-//                }
-//                do {
-//                    audioPlayer = try AVPlayer(url: url)
-//                } catch {
-//                    print("Audio file error")
-//                }
-//                audioPlayer?.play()
                 
                 playWashingtonAudio()
             }
             
+            
+            if imageAnchor.referenceImage.name == "ten-dollar-front" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/hamilton.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                        //noteNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.y + 2, z: planeNode.position.z)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                playHamiltonAudio()
+            }
+            
+            
+            if imageAnchor.referenceImage.name == "twenty-front" {
+
+                let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+
+                plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+
+                let planeNode = SCNNode(geometry: plane)
+
+                planeNode.eulerAngles.x = -.pi/2
+
+                node.addChildNode(planeNode)
+
+                if let noteScene = SCNScene(named: "art.scnassets/jackson.scn") {
+
+                    if let noteNode = noteScene.rootNode.childNodes.first {
+                        
+                        noteNode.eulerAngles.x = .pi/2
+
+                        //noteNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.y + 2, z: planeNode.position.z)
+                        
+                        planeNode.addChildNode(noteNode)
+
+                    }
+                }
+                
+                playJacksonAudio()
+            }
             
             if imageAnchor.referenceImage.name == "kettle" {
                             
@@ -192,6 +220,86 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             
             }
             
+            if imageAnchor.referenceImage.name == "one-dollar-back" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "one-dollar.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+            
+            if imageAnchor.referenceImage.name == "ten-dollar-back" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "ten-dollar.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+            
+            if imageAnchor.referenceImage.name == "twenty-dollar-back" {
+                            
+            let videoNode = SKVideoNode(fileNamed: "twenty-dollar.mp4")
+            
+            videoNode.play()
+            
+            let videoScene = SKScene(size: CGSize(width: 1280, height: 720))
+            
+            videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+            
+            videoNode.yScale = -1.0
+            
+            videoScene.addChild(videoNode)
+            
+            let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
+            
+            let planeNode = SCNNode(geometry: plane)
+            
+            planeNode.eulerAngles.x = -.pi/2
+            
+            node.addChildNode(planeNode)
+            
+            }
+
+            
+            
         }
         
         return node
@@ -212,6 +320,34 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             audioPlayer?.play()
         }
     
+    private func playHamiltonAudio() {
+        guard let url = Bundle.main.url(forResource: "hamilton-quote", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+    
+    private func playJacksonAudio() {
+        guard let url = Bundle.main.url(forResource: "jackson-quote", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+
     
     
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
@@ -223,19 +359,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 }
             }
     
-        
-    
-//    public func coachingOverlayViewDidDeactivate(_ coachingOverlayTemp: ARCoachingOverlayView) {
-//        coachingOverlayTemp.activatesAutomatically = false
-//    }
-    
-//    func presentCoachingOverlay() {
-////        coachingOverlay.session = arView.session
-//            coachingOverlay.delegate = self
-//            coachingOverlay.goal = .horizontalPlane
-//            coachingOverlay.activatesAutomatically = false
-//            self.coachingOverlay.setActive(true, animated: true)
-//        }
 
     public func coachingOverlayViewDidDeactivate(_ coachingOverlayView: ARCoachingOverlayView) {
         coachingOverlayView.activatesAutomatically = true    }

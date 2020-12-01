@@ -8,7 +8,25 @@
       "filename" : "kettle.arreferenceimage"
     },
     {
+      "filename" : "one-dollar-back.arreferenceimage"
+    },
+    {
       "filename" : "one-dollar-front.arreferenceimage"
+    },
+    {
+      "filename" : "ten-dollar-back.arreferenceimage"
+    },
+    {
+      "filename" : "ten-dollar-front.arreferenceimage"
+    },
+    {
+      "filename" : "twenty-dollar-back.arreferenceimage"
+    },
+    {
+      "filename" : "twenty-dollar-front.arreferenceimage"
+    },
+    {
+      "filename" : "twenty-front.arreferenceimage"
     }
   ]
 }

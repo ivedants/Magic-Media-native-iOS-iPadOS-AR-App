@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "twenty-dollar-front.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.156
+  }
+}
