@@ -33,6 +33,12 @@
 		38CD144D2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
 		38CD144E2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
 		38CD144F2573AF2700AA0B95 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD144C2573AF2700AA0B95 /* VirtualObject.swift */; };
+		38CD14582575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
+		38CD14592575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
+		38CD145A2575B6CD00AA0B95 /* washigton-quote.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */; };
+		38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
+		38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
+		38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,8 @@
 		38CD143E25737A8500AA0B95 /* KeywordsSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsSpeechService.swift; sourceTree = "<group>"; };
 		38CD14452573AC6A00AA0B95 /* AnimationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDetails.swift; sourceTree = "<group>"; };
 		38CD144C2573AF2700AA0B95 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "washigton-quote.m4a"; sourceTree = "<group>"; };
+		38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "washington-quote.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 				38C92E6E255BC64800819B12 /* MagicKettleTests */,
 				38C92E79255BC64800819B12 /* MagicKettleUITests */,
 				38C92E56255BC64600819B12 /* Products */,
+				38CD14562575B6A800AA0B95 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +165,15 @@
 				38C92E7C255BC64800819B12 /* Info.plist */,
 			);
 			path = MagicKettleUITests;
+			sourceTree = "<group>";
+		};
+		38CD14562575B6A800AA0B95 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				38CD14572575B6CD00AA0B95 /* washigton-quote.m4a */,
+				38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 				38C92E5B255BC64600819B12 /* art.scnassets in Resources */,
 				38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */,
 				38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */,
 				38C92E62255BC64800819B12 /* Assets.xcassets in Resources */,
+				38CD14582575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
 				38C92E60255BC64600819B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CD14592575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
 				38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CD145A2575B6CD00AA0B95 /* washigton-quote.m4a in Resources */,
 				38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

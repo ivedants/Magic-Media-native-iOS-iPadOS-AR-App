@@ -10,6 +10,7 @@ import SceneKit
 import ARKit
 import RealityKit
 import Speech
+import AVFoundation
 class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
@@ -17,6 +18,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
 //    @IBOutlet var arView: ARView!
     
     @IBOutlet weak var recordingButton: UIButton!
+    
+//    let audioPlayer = AVQueuePlayer()
     
     /// Speech variables
     var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -31,7 +34,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
     let speechService: SpeechService = KeywordsSpeechService()
     
     
-    
+    var audioPlayer : AVPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -130,7 +133,38 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                     }
                 }
 
+                //Using AVQueuePlayer
+//                if let url = Bundle.main.url(forResource: "washington-quote", withExtension: "m4a") {
+//                        audioPlayer.removeAllItems()
+//                        audioPlayer.insert(AVPlayerItem(url: url), after: nil)
+//                        audioPlayer.play()
+//                    }
+                
+                //Using AudioPlayer
+//                let sound = Bundle.main.path(forResource: "washington-quote", ofType: "m4a", inDirectory: "Sounds")
+//
+//                do {
+//                    audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+//                }
+//                catch {
+//                    print(error)
+//                }
+//
+//                audioPlayer.play()
+                
+//                guard let url = Bundle.main.url(forResource: "washington-quote", withExtension: "m4a") else {
+//                    print("Error to get mp3 file")
+//                }
+//                do {
+//                    audioPlayer = try AVPlayer(url: url)
+//                } catch {
+//                    print("Audio file error")
+//                }
+//                audioPlayer?.play()
+                
+                playWashingtonAudio()
             }
+            
             
             if imageAnchor.referenceImage.name == "kettle" {
                             
@@ -163,6 +197,22 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         return node
         
     }
+    
+    private func playWashingtonAudio() {
+        guard let url = Bundle.main.url(forResource: "washington-quote", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+    
+    
     
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         
