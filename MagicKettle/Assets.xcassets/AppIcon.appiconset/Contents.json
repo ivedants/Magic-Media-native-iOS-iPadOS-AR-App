@@ -1,41 +1,49 @@
 {
   "images" : [
     {
+      "filename" : "AR_icon_3D copy-2.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "AR_icon_3D copy-3.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "AR_icon_3D copy-6.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "AR_icon_3D copy-8.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "AR_icon_3D copy.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "AR_icon_3D copy-5.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "AR_icon_3D copy-4.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "AR_icon_3D copy-9.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -46,6 +54,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "AR_icon_3D copy-10.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
@@ -56,6 +65,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "AR_icon_3D copy-7.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
@@ -66,26 +76,31 @@
       "size" : "40x40"
     },
     {
+      "filename" : "AR_icon_3D copy-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "AR_icon_3D copy-11.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
+      "filename" : "AR_icon_3D copy-12.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "AR_icon_3D copy-13.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "AR_icon_3D.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
