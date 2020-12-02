@@ -101,7 +101,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         
         
         let node = SCNNode()
-        
+      
         if let imageAnchor = anchor as? ARImageAnchor {
             
           // print(imageAnchor.referenceImage.name)
@@ -524,7 +524,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             
             }
 
-            
+           
             
         }
         
@@ -574,8 +574,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             audioPlayer?.play()
         }
 
-    
-    
+   
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         
         if node.isHidden == true {

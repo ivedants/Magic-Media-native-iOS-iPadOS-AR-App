@@ -83,7 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38C92E55255BC64600819B12 /* MagicKettle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicKettle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C92E55255BC64600819B12 /* Magic Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C92E58255BC64600819B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C92E5A255BC64600819B12 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		38C92E5C255BC64600819B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,10 +91,10 @@
 		38C92E61255BC64800819B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C92E64255BC64800819B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C92E66255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38C92E6B255BC64800819B12 /* MagicKettleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicKettleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C92E6B255BC64800819B12 /* Magic MediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic MediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C92E6F255BC64800819B12 /* MagicKettleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicKettleTests.swift; sourceTree = "<group>"; };
 		38C92E71255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38C92E76255BC64800819B12 /* MagicKettleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicKettleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C92E76255BC64800819B12 /* Magic MediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic MediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C92E7A255BC64800819B12 /* MagicKettleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicKettleUITests.swift; sourceTree = "<group>"; };
 		38C92E7C255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C92E8B255BC67900819B12 /* kettle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kettle.mp4; sourceTree = "<group>"; };
@@ -154,9 +154,9 @@
 		38C92E56255BC64600819B12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38C92E55255BC64600819B12 /* MagicKettle.app */,
-				38C92E6B255BC64800819B12 /* MagicKettleTests.xctest */,
-				38C92E76255BC64800819B12 /* MagicKettleUITests.xctest */,
+				38C92E55255BC64600819B12 /* Magic Media.app */,
+				38C92E6B255BC64800819B12 /* Magic MediaTests.xctest */,
+				38C92E76255BC64800819B12 /* Magic MediaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		38C92E54255BC64600819B12 /* MagicKettle */ = {
+		38C92E54255BC64600819B12 /* Magic Media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38C92E7F255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettle" */;
+			buildConfigurationList = 38C92E7F255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic Media" */;
 			buildPhases = (
 				38C92E51255BC64600819B12 /* Sources */,
 				38C92E52255BC64600819B12 /* Frameworks */,
@@ -231,14 +231,14 @@
 			);
 			dependencies = (
 			);
-			name = MagicKettle;
+			name = "Magic Media";
 			productName = MagicKettle;
-			productReference = 38C92E55255BC64600819B12 /* MagicKettle.app */;
+			productReference = 38C92E55255BC64600819B12 /* Magic Media.app */;
 			productType = "com.apple.product-type.application";
 		};
-		38C92E6A255BC64800819B12 /* MagicKettleTests */ = {
+		38C92E6A255BC64800819B12 /* Magic MediaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38C92E82255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettleTests" */;
+			buildConfigurationList = 38C92E82255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic MediaTests" */;
 			buildPhases = (
 				38C92E67255BC64800819B12 /* Sources */,
 				38C92E68255BC64800819B12 /* Frameworks */,
@@ -249,14 +249,14 @@
 			dependencies = (
 				38C92E6D255BC64800819B12 /* PBXTargetDependency */,
 			);
-			name = MagicKettleTests;
+			name = "Magic MediaTests";
 			productName = MagicKettleTests;
-			productReference = 38C92E6B255BC64800819B12 /* MagicKettleTests.xctest */;
+			productReference = 38C92E6B255BC64800819B12 /* Magic MediaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		38C92E75255BC64800819B12 /* MagicKettleUITests */ = {
+		38C92E75255BC64800819B12 /* Magic MediaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38C92E85255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettleUITests" */;
+			buildConfigurationList = 38C92E85255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic MediaUITests" */;
 			buildPhases = (
 				38C92E72255BC64800819B12 /* Sources */,
 				38C92E73255BC64800819B12 /* Frameworks */,
@@ -267,9 +267,9 @@
 			dependencies = (
 				38C92E78255BC64800819B12 /* PBXTargetDependency */,
 			);
-			name = MagicKettleUITests;
+			name = "Magic MediaUITests";
 			productName = MagicKettleUITests;
-			productReference = 38C92E76255BC64800819B12 /* MagicKettleUITests.xctest */;
+			productReference = 38C92E76255BC64800819B12 /* Magic MediaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 38C92E50255BC64600819B12 /* Build configuration list for PBXProject "MagicKettle" */;
+			buildConfigurationList = 38C92E50255BC64600819B12 /* Build configuration list for PBXProject "Magic Media" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -307,9 +307,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38C92E54255BC64600819B12 /* MagicKettle */,
-				38C92E6A255BC64800819B12 /* MagicKettleTests */,
-				38C92E75255BC64800819B12 /* MagicKettleUITests */,
+				38C92E54255BC64600819B12 /* Magic Media */,
+				38C92E6A255BC64800819B12 /* Magic MediaTests */,
+				38C92E75255BC64800819B12 /* Magic MediaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -421,12 +421,12 @@
 /* Begin PBXTargetDependency section */
 		38C92E6D255BC64800819B12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38C92E54255BC64600819B12 /* MagicKettle */;
+			target = 38C92E54255BC64600819B12 /* Magic Media */;
 			targetProxy = 38C92E6C255BC64800819B12 /* PBXContainerItemProxy */;
 		};
 		38C92E78255BC64800819B12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38C92E54255BC64600819B12 /* MagicKettle */;
+			target = 38C92E54255BC64600819B12 /* Magic Media */;
 			targetProxy = 38C92E77255BC64800819B12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -623,7 +623,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicKettle.app/MagicKettle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Media.app/Magic Media";
 			};
 			name = Debug;
 		};
@@ -645,7 +645,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicKettle.app/MagicKettle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Media.app/Magic Media";
 			};
 			name = Release;
 		};
@@ -692,7 +692,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38C92E50255BC64600819B12 /* Build configuration list for PBXProject "MagicKettle" */ = {
+		38C92E50255BC64600819B12 /* Build configuration list for PBXProject "Magic Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38C92E7D255BC64800819B12 /* Debug */,
@@ -701,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38C92E7F255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettle" */ = {
+		38C92E7F255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38C92E80255BC64800819B12 /* Debug */,
@@ -710,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38C92E82255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettleTests" */ = {
+		38C92E82255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic MediaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38C92E83255BC64800819B12 /* Debug */,
@@ -719,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38C92E85255BC64800819B12 /* Build configuration list for PBXNativeTarget "MagicKettleUITests" */ = {
+		38C92E85255BC64800819B12 /* Build configuration list for PBXNativeTarget "Magic MediaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38C92E86255BC64800819B12 /* Debug */,
