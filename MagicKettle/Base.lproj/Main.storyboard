@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="MagicKettle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Magic_Media" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -35,7 +35,7 @@
                                                         <rect key="frame" x="190" y="0.0" width="48" height="88"/>
                                                         <state key="normal" image="mic"/>
                                                         <connections>
-                                                            <action selector="startRecordingWithSender:" destination="BV1-FR-VrT" eventType="touchUpInside" id="N7s-9h-PEG"/>
+                                                            <action selector="recordingButtonTapped" destination="BV1-FR-VrT" eventType="touchUpInside" id="bUF-r7-BPB"/>
                                                         </connections>
                                                     </button>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qIT-lv-gF7" userLabel="Recognized Text">
