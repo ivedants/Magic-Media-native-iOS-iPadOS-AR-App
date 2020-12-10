@@ -798,7 +798,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 self.whatCanYouDo()
             }
             
-            if (self.recognizedText.text == "I am hungry") || (self.recognizedText.text == "What's for dinner") || (self.recognizedText.text == "Any good recipes")  {
+            if (self.recognizedText.text == "I am hungry") || (self.recognizedText.text == "I'm hungry") || (self.recognizedText.text == "What's for dinner") || (self.recognizedText.text == "Any good recipes")  {
                 self.recognizedText.text = "Check out the awesome recipe for salmon in the Costco Connection 2020 file provided with this app"
                 self.salmonRecipe()
             }
