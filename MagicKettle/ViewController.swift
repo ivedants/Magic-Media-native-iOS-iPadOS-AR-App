@@ -44,6 +44,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
     
     var audioPlayer : AVPlayer!
     
+    var newAudioPlayer: AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,6 +64,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
     
     override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         // Configure the SFSpeechRecognizer object already
         // stored in a local member variable.
         speechRecognizer.delegate = self
@@ -341,15 +344,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 if let noteScene = SCNScene(named: "art.scnassets/coffee-table.scn") {
                     
                     if let noteNode = noteScene.rootNode.childNodes.first {
-                       
-                        
-                       // noteNode.position = SCNVector3(x: planeNode.position.x, y: (planeNode.position.y + noteNode.boundingSphere.radius), z: planeNode.position.z)
                         
                         noteNode.eulerAngles.x = .pi/2
 
-                                                
-                     //   pokeNode.position = SCNVector3(x: planeNode.position.x, y: planeNode.position.x + pokeNode.boundingSphere.radius, z: planeNode.position.x)
-                        
                         planeNode.addChildNode(noteNode)
 
                     }
@@ -566,14 +563,14 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             node.addChildNode(planeNode)
             
             }
-
-           
             
-        }
+    }
         
         return node
         
     }
+    
+
     
     private func playWashingtonAudio() {
         guard let url = Bundle.main.url(forResource: "washington-quote", withExtension: "mp3") else {
@@ -587,6 +584,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 print("audio file error")
             }
             audioPlayer?.play()
+      
         }
     
     private func playHamiltonAudio() {
@@ -617,7 +615,63 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             audioPlayer?.play()
         }
 
+    private func whatCanYouDo() {
+        guard let url = Bundle.main.url(forResource: "whatcanido", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+    
+    private func salmonRecipe() {
+        guard let url = Bundle.main.url(forResource: "salmonrecipe", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
    
+    private func oprahInterview() {
+        guard let url = Bundle.main.url(forResource: "oprah", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+    
+    private func waterKettle() {
+        guard let url = Bundle.main.url(forResource: "waterKettle", withExtension: "mp3") else {
+                print("error to get the mp3 file")
+                return
+            }
+
+            do {
+                audioPlayer = try AVPlayer(url: url)
+            } catch {
+                print("audio file error")
+            }
+            audioPlayer?.play()
+        }
+    
+    
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         
         if node.isHidden == true {
@@ -685,7 +739,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         
         // Configure the audio session for the app.
         let audioSession = AVAudioSession.sharedInstance()
-        try audioSession.setCategory(.record, mode: .measurement, options: .duckOthers)
+        try audioSession.setCategory(.playAndRecord, mode: .measurement, options: .duckOthers)
         try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
         let inputNode = audioEngine.inputNode
 
@@ -722,6 +776,42 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
                 self.recordingButton.isEnabled = true
                 self.recordingButton.setTitle("Start Recording", for: [])
             }
+            
+            
+  // MARK: Voice Command Actions
+            
+            if self.recognizedText.text == "Moon" {
+                let sphere = SCNSphere(radius: 0.2)
+                let material = SCNMaterial()
+                material.diffuse.contents = UIImage(named: "art.scnassets/8k_moon.jpg")
+                sphere.materials = [material]
+                let node = SCNNode()
+
+                node.position = SCNVector3(x: 0, y: 0.1, z: -0.5)
+                node.geometry = sphere
+                self.sceneView.scene.rootNode.addChildNode(node)
+
+            }
+            
+            if self.recognizedText.text == "What can you do" {
+                self.recognizedText.text = "You can say things like: Any book recommendations, Any good recipes, Instructions for the kettle, I am hungry, and more"
+                self.whatCanYouDo()
+            }
+            
+            if (self.recognizedText.text == "I am hungry") || (self.recognizedText.text == "What's for dinner") || (self.recognizedText.text == "Any good recipes")  {
+                self.recognizedText.text = "Check out the awesome recipe for salmon in the Costco Connection 2020 file provided with this app"
+                self.salmonRecipe()
+            }
+            
+            if (self.recognizedText.text == "Any book recommendations"){
+                self.recognizedText.text = "Check out President Obama's interview with Oprah on his new book in the Costco Connection 2020 file provided with this app"
+                self.oprahInterview()
+            }
+            
+            if (self.recognizedText.text == "How to use water kettle") || (self.recognizedText.text == "Instructions for the kettle"){
+                self.recognizedText.text = "Detect the image on the Water Kettle Instructions Manual file provided with this app for the video"
+                self.waterKettle()
+            }
         }
 
         // Configure the microphone input.
@@ -734,8 +824,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         try audioEngine.start()
         
         // Let the user know to start talking.
-        recognizedText.text = "(Go ahead, I'm listening)"
+        recognizedText.text = "(Go ahead, I'm listening) \nSay (What can you do) in order to learn more"
+                      
     }
+    
+   
     
     // MARK: SFSpeechRecognizerDelegate
     
@@ -758,6 +851,14 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
             recognitionRequest?.endAudio()
             recordingButton.isEnabled = false
             recordingButton.setTitle("Stopping", for: .disabled)
+            let audioSession = AVAudioSession.sharedInstance()
+                do {
+                    try audioSession.setCategory(AVAudioSession.Category.playback)
+                    try audioSession.setActive(false, options: .notifyOthersOnDeactivation)
+                } catch {
+                    // handle errors
+                }
+            recognizedText.text = ""
         } else {
             do {
                 try startRecording()
@@ -768,6 +869,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARCoachingOverlayView
         }
     
     }
+    
     
 }
     

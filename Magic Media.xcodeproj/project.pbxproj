@@ -21,6 +21,18 @@
 		38CAB0F42580F1B20018A18F /* Speech ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB0F32580F1B20018A18F /* Speech ViewController.swift */; };
 		38CAB0F52580F1B20018A18F /* Speech ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB0F32580F1B20018A18F /* Speech ViewController.swift */; };
 		38CAB0F62580F1B20018A18F /* Speech ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAB0F32580F1B20018A18F /* Speech ViewController.swift */; };
+		38CAB0FB2581C9600018A18F /* whatcanido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB0FA2581C9600018A18F /* whatcanido.mp3 */; };
+		38CAB0FC2581C9600018A18F /* whatcanido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB0FA2581C9600018A18F /* whatcanido.mp3 */; };
+		38CAB0FD2581C9600018A18F /* whatcanido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB0FA2581C9600018A18F /* whatcanido.mp3 */; };
+		38CAB1042581F1960018A18F /* salmonrecipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1032581F1960018A18F /* salmonrecipe.mp3 */; };
+		38CAB1052581F1960018A18F /* salmonrecipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1032581F1960018A18F /* salmonrecipe.mp3 */; };
+		38CAB1062581F1960018A18F /* salmonrecipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1032581F1960018A18F /* salmonrecipe.mp3 */; };
+		38CAB10E2581FBD80018A18F /* oprah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB10D2581FBD80018A18F /* oprah.mp3 */; };
+		38CAB10F2581FBD80018A18F /* oprah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB10D2581FBD80018A18F /* oprah.mp3 */; };
+		38CAB1102581FBD80018A18F /* oprah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB10D2581FBD80018A18F /* oprah.mp3 */; };
+		38CAB1182581FBE00018A18F /* waterKettle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1172581FBE00018A18F /* waterKettle.mp3 */; };
+		38CAB1192581FBE00018A18F /* waterKettle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1172581FBE00018A18F /* waterKettle.mp3 */; };
+		38CAB11A2581FBE00018A18F /* waterKettle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CAB1172581FBE00018A18F /* waterKettle.mp3 */; };
 		38CD14722575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
 		38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
 		38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */; };
@@ -87,6 +99,10 @@
 		38C92E7C255BC64800819B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38C92E8B255BC67900819B12 /* kettle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kettle.mp4; sourceTree = "<group>"; };
 		38CAB0F32580F1B20018A18F /* Speech ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speech ViewController.swift"; sourceTree = "<group>"; };
+		38CAB0FA2581C9600018A18F /* whatcanido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whatcanido.mp3; sourceTree = "<group>"; };
+		38CAB1032581F1960018A18F /* salmonrecipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = salmonrecipe.mp3; sourceTree = "<group>"; };
+		38CAB10D2581FBD80018A18F /* oprah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oprah.mp3; sourceTree = "<group>"; };
+		38CAB1172581FBE00018A18F /* waterKettle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterKettle.mp3; sourceTree = "<group>"; };
 		38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "washington-quote.mp3"; sourceTree = "<group>"; };
 		38CD147E2575CF4400AA0B95 /* one-dollar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "one-dollar.mp4"; sourceTree = "<group>"; };
 		38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hamilton-quote.mp3"; sourceTree = "<group>"; };
@@ -192,6 +208,10 @@
 				38CD14712575CA6B00AA0B95 /* washington-quote.mp3 */,
 				38CD14852575D13F00AA0B95 /* hamilton-quote.mp3 */,
 				38CD148F2575D27500AA0B95 /* jackson-quote.mp3 */,
+				38CAB0FA2581C9600018A18F /* whatcanido.mp3 */,
+				38CAB1032581F1960018A18F /* salmonrecipe.mp3 */,
+				38CAB10D2581FBD80018A18F /* oprah.mp3 */,
+				38CAB1172581FBE00018A18F /* waterKettle.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -306,13 +326,17 @@
 				38CD147F2575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38CD14862575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD149D25760C4C00AA0B95 /* ten-dollar.mp4 in Resources */,
+				38CAB10E2581FBD80018A18F /* oprah.mp3 in Resources */,
 				38CD14BB2576368500AA0B95 /* mexico.mp4 in Resources */,
+				38CAB1182581FBE00018A18F /* waterKettle.mp3 in Resources */,
 				38CD14902575D27500AA0B95 /* jackson-quote.mp3 in Resources */,
 				38CD14AE2576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
 				38C92E5B255BC64600819B12 /* art.scnassets in Resources */,
 				38C92E8C255BC67900819B12 /* kettle.mp4 in Resources */,
 				38C92E65255BC64800819B12 /* LaunchScreen.storyboard in Resources */,
 				38C92E62255BC64800819B12 /* Assets.xcassets in Resources */,
+				38CAB0FB2581C9600018A18F /* whatcanido.mp3 in Resources */,
+				38CAB1042581F1960018A18F /* salmonrecipe.mp3 in Resources */,
 				38C92E60255BC64600819B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,11 +350,15 @@
 				38CD14A525761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
 				38CD14BC2576368500AA0B95 /* mexico.mp4 in Resources */,
 				38CD14D625764B6700AA0B95 /* promised-land.mp4 in Resources */,
+				38CAB1192581FBE00018A18F /* waterKettle.mp3 in Resources */,
 				38CD14802575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8D255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CAB10F2581FBD80018A18F /* oprah.mp3 in Resources */,
 				38CD14872575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD14C925763B0000AA0B95 /* sensodyne.mp4 in Resources */,
+				38CAB1052581F1960018A18F /* salmonrecipe.mp3 in Resources */,
 				38CD14AF2576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
+				38CAB0FC2581C9600018A18F /* whatcanido.mp3 in Resources */,
 				38CD14732575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,11 +372,15 @@
 				38CD14A625761BCE00AA0B95 /* twenty-dollar.mp4 in Resources */,
 				38CD14BD2576368500AA0B95 /* mexico.mp4 in Resources */,
 				38CD14D725764B6700AA0B95 /* promised-land.mp4 in Resources */,
+				38CAB11A2581FBE00018A18F /* waterKettle.mp3 in Resources */,
 				38CD14812575CF4400AA0B95 /* one-dollar.mp4 in Resources */,
 				38C92E8E255BC67900819B12 /* kettle.mp4 in Resources */,
+				38CAB1102581FBD80018A18F /* oprah.mp3 in Resources */,
 				38CD14882575D13F00AA0B95 /* hamilton-quote.mp3 in Resources */,
 				38CD14CA25763B0000AA0B95 /* sensodyne.mp4 in Resources */,
+				38CAB1062581F1960018A18F /* salmonrecipe.mp3 in Resources */,
 				38CD14B02576339000AA0B95 /* costco-auto-program.mp4 in Resources */,
+				38CAB0FD2581C9600018A18F /* whatcanido.mp3 in Resources */,
 				38CD14742575CA6B00AA0B95 /* washington-quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
