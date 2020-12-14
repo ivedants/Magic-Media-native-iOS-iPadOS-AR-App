@@ -25,6 +25,9 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
 - [AR Application Design](#AR-application-design)
   - [App triggering AR](#app-triggering-ar)
   - [Combines real and virtual worlds to deliver a wholesome experience](#combines-real-and-virtual-worlds-to-deliver-a-wholesome-experience)
+  - [Interactive in real-time](#interactive-in-real-time)
+  - [Image registered in 3D](#image-registered-in-3d)
+  
 
 ## Getting Started
 
@@ -72,7 +75,7 @@ Besides getting the real experience from the digital or hard copy of the target 
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%205.gif" />
 </p>
 
-**Interactive in real-time:**
+### Interactive in real-time:
 
 The AR elements of the app are interactive in real-time. The user can also pause/play the video triggered by the AR at their ease.
 
@@ -80,7 +83,7 @@ The AR elements of the app are interactive in real-time. The user can also pause
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%206.gif" />
 </p>
 
-**Image registered in 3D:**
+### Image registered in 3D:
 
 The app recognizes certain images on the target physical media and register them in 3D in order to build an AR element for them and enhance the user’s overall interactive experience.
 
