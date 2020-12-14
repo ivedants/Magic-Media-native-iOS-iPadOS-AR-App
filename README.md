@@ -23,6 +23,8 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
 
 - [Getting Started](#getting-started)
 - [AR Application Design](#AR-application-design)
+  - [App triggering AR](#app-triggering-ar)
+  - [Combines real and virtual worlds to deliver a wholesome experience](#combines-real-and-virtual-worlds-to-deliver-wholesome-experience)
 
 ## Getting Started
 
@@ -54,13 +56,15 @@ The app has been tested with iPhone 12 Pro Max and iPad Pro (2020, 4th generatio
 
 ## AR Application Design
 
-**App triggering AR:** The app triggers the AR based on markers through image tracking on vertical and horizontal surfaces. The various images/text on the target physical media will be marked and converted into AR objects or interactive videos once the user points the device camera towards them.
+### App triggering AR: 
+
+The app triggers the AR based on markers through image tracking on vertical and horizontal surfaces. The various images/text on the target physical media will be marked and converted into AR objects or interactive videos once the user points the device camera towards them.
 
 <p align="center">
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%204.gif" />
 </p>
 
-**Combines real and virtual worlds to deliver a wholesome experience:** 
+### Combines real and virtual worlds to deliver a wholesome experience:
 
 Besides getting the real experience from the digital or hard copy of the target physical media, the users will also be able to learn more about specific topics and sections through videos or 3D models triggered by AR.
 
