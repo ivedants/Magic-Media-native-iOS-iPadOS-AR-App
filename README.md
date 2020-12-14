@@ -7,7 +7,7 @@ On a personal note, I strongly believe that Augmented Reality is going to be a k
 ## For a quick insight of this project, check out this small video: https://youtu.be/hn3tAm9B468
 
 <p align="center">
-  <img src="https://github.com/ivedants/Magic-Media-native-iOS-iPadOS-AR-App/blob/main/Image%2010.gif" />
+  <img src="https://github.com/ivedants/Magic-Media-native-iOS-iPadOS-AR-App/blob/main/Image%2011.gif" />
 </p>
 
 **Made Using**
