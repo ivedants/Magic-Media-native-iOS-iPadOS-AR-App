@@ -1,6 +1,8 @@
 # Magic Media
 
-Magic Media is a native iOS/iPadOS application that focuses on augmenting physical forms of media such as magazines, dollar bills, instruction manuals, etc. It delivers its users various options to interact with several sections of the physical media with images/text and then convert them into videos or 3D models specifically. This will help the user understand the information better in various ways of interaction, which is majorly made possible by AR. It also supports voice commands to help the user navigate through the app and have a more friendly and immersive experience.
+Magic Media is an experimental native iOS/iPadOS application that focuses on augmenting physical forms of media such as magazines, dollar bills, instruction manuals, etc. It delivers its users various options to interact with several sections of the physical media with images/text and then convert them into videos or 3D models specifically. This will help the user understand the information better in various ways of interaction, which is majorly made possible by AR. It also supports voice commands to help the user navigate through the app and have a more friendly and immersive experience.
+
+## For a quick insight of this project, check out this small video: https://youtu.be/hn3tAm9B468
 
 <p align="center">
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%203.gif" />
@@ -108,7 +110,7 @@ person featured on the target dollar bill and video for the back side of the bil
 
 ### Includes narration, music, and sounds as appropriate: 
 
-The app includes narration, music, and sounds in various AR elements that require it as explained above. In order to have a quick preview, check out the preview video of this project at: {YouTube Link}
+The app includes narration, music, and sounds in various AR elements that require it as explained above. In order to have a quick preview, check out the preview video of this project at: https://youtu.be/hn3tAm9B468
 
 ### Accepts voice commands: 
 
