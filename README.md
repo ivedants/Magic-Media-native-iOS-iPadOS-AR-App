@@ -27,6 +27,8 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
   - [Combines real and virtual worlds to deliver a wholesome experience](#combines-real-and-virtual-worlds-to-deliver-a-wholesome-experience)
   - [Interactive in real-time](#interactive-in-real-time)
   - [Image registered in 3D](#image-registered-in-3d)
+  - [Includes virtual objects and digital content](#includes-virtual-objects-and-digital-content)
+  - [Includes narration, music, and sounds as appropriate](#Includes-narration-music-and-sounds-as-appropriate)
   
 
 ## Getting Started
@@ -90,3 +92,17 @@ The app recognizes certain images on the target physical media and register them
 <p align="center">
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%207.gif" />
 </p>
+
+### Includes virtual objects and digital content: 
+
+The app triggers virtual objects for certain section like advertisements for personal care products, furniture, food recipes, etc. as 3D objects and digital content such as videos for some trending interviews, book recommendations, product/service reviews, advertisements, etc. For any one, ten, or twenty dollar bill, the app triggers virtual objects for the front side of the bill, thus revealing more about the
+person featured on the target dollar bill and video for the back side of the bill, thus sharing more information about the dollar bill. Besides this, the app also triggers instructional videos on top of images featured on instruction manuals.
+
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%208.gif" />
+</p>
+
+### Includes narration, music, and sounds as appropriate: 
+
+The app includes narration, music, and sounds in various AR elements that require it as explained above. In order to have a quick preview, check out the preview video of this project at: {YouTube Link}
+
