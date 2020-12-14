@@ -106,3 +106,11 @@ person featured on the target dollar bill and video for the back side of the bil
 
 The app includes narration, music, and sounds in various AR elements that require it as explained above. In order to have a quick preview, check out the preview video of this project at: {YouTube Link}
 
+###Accepts voice commands: 
+
+The app includes appropriate voice commands such as what it can do, where would the user find something specific that they might be looking for, etc.
+
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%209.gif" />
+</p>
+
