@@ -29,6 +29,7 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
   - [Image registered in 3D](#image-registered-in-3d)
   - [Includes virtual objects and digital content](#includes-virtual-objects-and-digital-content)
   - [Includes narration, music, and sounds as appropriate](#Includes-narration-music-and-sounds-as-appropriate)
+  - [Accepts voice commands](#accepts-voice-commands)
   
 
 ## Getting Started
