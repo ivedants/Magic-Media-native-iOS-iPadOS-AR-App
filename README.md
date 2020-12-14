@@ -32,7 +32,7 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
   - [Accepts voice commands](#accepts-voice-commands)
 - [Integration](#integration)
 - [User Experience](#user-experience)
-- [Appendix: Lessons Learned - My personal journey throughout this project](#Appendix-lessons-learned-my-personal-journey-throughout-this-project)
+- [Appendix: Lessons Learned - My personal journey throughout this project](#Appendix-lessons-learned--my-personal-journey-throughout-this-project)
   
 
 ## Getting Started
