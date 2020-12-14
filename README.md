@@ -32,7 +32,7 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
   - [Accepts voice commands](#accepts-voice-commands)
 - [Integration](#integration)
 - [User Experience](#user-experience)
-- [Appendix: Lessons Learned - My personal journey throughout this project](#Appendix-lessons-learned--my-personal-journey-throughout-this-project)
+- [Appendix: Lessons Learned (My personal journey throughout this project)](#Appendix-lessons-learned-my-personal-journey-throughout-this-project)
   
 
 ## Getting Started
@@ -130,7 +130,7 @@ First, all the assets were gathered and put in Xcode which included all the soun
 
 In order to give users a very user-friendly and immersive experience, the app always **implements a quick AR coaching session** for the users to learn about detecting vertical and horizontal surfaces for the app to track the images in the physical environment. The app **also takes user privacy into account** by asking the users for permission to access their camera to detect the images and microphone for the voice commands. **Since the current version of the app works with a limited set of physical media, it also supports any one, ten, and twenty US dollar bill. This helps in adding more creativity and complexity.** The front side of the bill renders a 3D model with a famous quote of the person featured on that dollar bill whereas the back side of the bill plays a video on top of it, informing more about the making of that dollar bill. The virtual objects and digital content help enhance the whole reading and interacting experience for the users. On top of this, the users can make use of voice commands to get the most out of the app by saying specific phrases to activate those commands, which also help them navigate throughout their experience.
 
-## Appendix: Lessons Learned - My personal journey throughout this project
+## Appendix: Lessons Learned (My personal journey throughout this project)
 
 The first and foremost lesson to be learned while making a native iOS application for AR is that it does require a prerequisite of having a strong background in object-oriented programming or programming with Swift. There are many elements that come into play together when an application like Magic Media is made. First, there are the new ARKit and RealityKit SDKs that have to be studied thoroughly in order to understand the possibilities and limitations of AR within the Apple Development Ecosystem.
 
