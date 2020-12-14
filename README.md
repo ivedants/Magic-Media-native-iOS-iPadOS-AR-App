@@ -2,6 +2,8 @@
 
 Magic Media is a native iOS/iPadOS application that focuses on augmenting physical forms of media such as magazines, dollar bills, instruction manuals, etc. It delivers its users various options to interact with several sections of the physical media with images/text and then convert them into videos or 3D models specifically. This will help the user understand the information better in various ways of interaction, which is majorly made possible by AR. It also supports voice commands to help the user navigate through the app and have a more friendly and immersive experience.
 
+![alt text](https://github.com/ivedants/MagicMedia/blob/main/Image%203.gif)
+
 **Made Using**
 
 1. Xcode 12
