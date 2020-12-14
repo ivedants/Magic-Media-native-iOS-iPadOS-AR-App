@@ -4,6 +4,10 @@ Magic Media is an experimental native iOS/iPadOS application that focuses on aug
 
 On a personal note, I strongly believe that Augmented Reality is going to be a key element of the Digital Information Age very soon. This project also aims at delivering an insight into the future of technology and the way we are going to experience the world around us in the coming years. 
 
+**Award**
+
+This project won the Best Project (Public Choice) Award under the Augmented Reality Projects category at the Festival of Animation - Fall 2020 at The George Washington University, Washington D.C., USA.
+
 ## For a quick insight of this project, check out this small video: https://youtu.be/hn3tAm9B468
 
 <p align="center">
@@ -18,10 +22,6 @@ On a personal note, I strongly believe that Augmented Reality is going to be a k
 4. SceneKit
 5. RealityKit
 6. Apple Speech Framework
-
-**Award**
-
-This project won the Best Project (Public Choice) Award under the Augmented Reality Projects category at the Festival of Animation - Fall 2020 at The George Washington University, Washington D.C., USA.
 
 ## Table of Contents
 
