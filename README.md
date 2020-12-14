@@ -30,6 +30,9 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
   - [Includes virtual objects and digital content](#includes-virtual-objects-and-digital-content)
   - [Includes narration, music, and sounds as appropriate](#Includes-narration-music-and-sounds-as-appropriate)
   - [Accepts voice commands](#accepts-voice-commands)
+- [Integration](#integration)
+- [User Experience](#user-experience)
+- [Appendix: Lessons Learned - My personal journey throughout this project](#Appendix-Lessons-Learned-My-personal-journey-throughout-this-project)
   
 
 ## Getting Started
@@ -114,4 +117,26 @@ The app includes appropriate voice commands such as what it can do, where would 
 <p align="center">
   <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%209.gif" />
 </p>
+
+## Integration
+
+Magic Media is a native iOS/iPadOS app made using Apple ARKit, RealityKit, SceneKit, and Speech Framework. It is developed using Swift 5 programming language in Xcode 12 IDE.
+
+### The Build process:
+
+First, all the assets were gathered and put in Xcode which included all the sounds, 3D models, videos, and images used for this app. After setting up the development environment and target devices, the libraries were imported. There are various functions that have been created to play sounds, render models or videos in scenes nodes or video nodes respectively on top of planes created for tracked images that are registered in 3D. The Speech Framework has been used to add Speech Recognition to the app so that it can use the device microphone to listen for voice input from the user. Then the recognized speech text is analyzed to check for voice commands and the identified commands are then executed.
+
+## User Experience
+
+In order to give users a very user-friendly and immersive experience, the app always **implements a quick AR coaching session** for the users to learn about detecting vertical and horizontal surfaces for the app to track the images in the physical environment. The app **also takes user privacy into account** by asking the users for permission to access their camera to detect the images and microphone for the voice commands. **Since the current version of the app works with a limited set of physical media, it also supports any one, ten, and twenty US dollar bill. This helps in adding more creativity and complexity.** The front side of the bill renders a 3D model with a famous quote of the person featured on that dollar bill whereas the back side of the bill plays a video on top of it, informing more about the making of that dollar bill. The virtual objects and digital content help enhance the whole reading and interacting experience for the users. On top of this, the users can make use of voice commands to get the most out of the app by saying specific phrases to activate those commands, which also help them navigate throughout their experience.
+
+## Appendix: Lessons Learned - My personal journey throughout this project
+
+The first and foremost lesson to be learned while making a native iOS application for AR is that it does require a prerequisite of having a strong background in object-oriented programming or programming with Swift. There are many elements that come into play together when an application like Magic Media is made. First, there are the new ARKit and RealityKit SDKs that have to be studied thoroughly in order to understand the possibilities and limitations of AR within the Apple Development Ecosystem.
+
+It took some efforts to be able to find the appropriate 3D Models to be used within the app. These 3D models are rendered on top of plane nodes generated over the tracked images that trigger them. 
+
+The most challenging part of this project has been the implementation of voice commands. In order to implement them, the basic requirement is to recognize speech, which can be done using Speech Framework. Although I followed the tutorials available online for Speech Framework and Speech Recognition, I faced a major issue initially which was a “SIGABRT” error that always led to an app crash every time the app would try to listen for speech. This was eventually solved by trying another implementation method through the Apple documentation on Speech Framework and Speech Recognition.
+
+Another lesson that I learned while making this app is that the voice commands could not place or render any 3D object or video on its own since they can only be rendered using tracked images, as the app can use only one type of anchor for its renderer function and image anchor is the only anchor that I could use here. I hope there is a way to include multiple type of anchors within the same application in the future so that the possibilities are more.
 
