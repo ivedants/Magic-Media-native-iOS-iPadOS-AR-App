@@ -54,4 +54,32 @@ The app has been tested with iPhone 12 Pro Max and iPad Pro (2020, 4th generatio
 
 ## AR Application Design
 
+**App triggering AR:** The app triggers the AR based on markers through image tracking on vertical and horizontal surfaces. The various images/text on the target physical media will be marked and converted into AR objects or interactive videos once the user points the device camera towards them.
 
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%204.gif" />
+</p>
+
+**Combines real and virtual worlds to deliver a wholesome experience:** 
+
+Besides getting the real experience from the digital or hard copy of the target physical media, the users will also be able to learn more about specific topics and sections through videos or 3D models triggered by AR.
+
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%205.gif" />
+</p>
+
+**Interactive in real-time:**
+
+The AR elements of the app are interactive in real-time. The user can also pause/play the video triggered by the AR at their ease.
+
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%206.gif" />
+</p>
+
+**Image registered in 3D:**
+
+The app recognizes certain images on the target physical media and register them in 3D in order to build an AR element for them and enhance the user’s overall interactive experience.
+
+<p align="center">
+  <img src="https://github.com/ivedants/MagicMedia/blob/main/Image%207.gif" />
+</p>
