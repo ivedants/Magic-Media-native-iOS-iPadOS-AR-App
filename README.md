@@ -37,6 +37,8 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
 
 ## Getting Started
 
+**NOTE:** In order to experience audio within the app, make sure your device is not in silent mode. You can augment any one, ten, or twenty US dollar bill with this app along with some physical media that this version supports. The physical media files that the app supports are in a folder called **“Supported Physical Media”**. Make sure to either access these files on a tablet kept horizontally surface or print them in preferably two pages (side by side) format. For any queries, suggestions, or collaborations regarding this project, please contact me at ivedantshrivastava@gmail.com.
+
 **User Guidelines - Simple instructions about how to install the app and enjoy the AR experience**
 
 This will help you to easily install and enjoy the app on your supported iOS/iPadOS device(s).
@@ -60,8 +62,6 @@ The app has been tested with iPhone 12 Pro Max and iPad Pro (2020, 4th generatio
 5. Now, you can press the “Build” button on the top left corner for building the app on your iPhone or iPad. Make sure the device is unlocked while the app is being built.
 6. If the app doesn’t open and give a permissions error on your device, then head over to Settings -> Your name (at the very top of the screen) -> Scroll down to a button that says “Developer” and then give permission for the app to run on your iPhone/iPad.
 7. This should get the app working on your iPhone/iPad and now, you’re all set to enjoy its features.
-
-**NOTE:** In order to experience audio within the app, make sure your device is not in silent mode. The physical media files that the app supports are in a folder called “Supported Physical Media”. Make sure to either access these files on a tablet kept horizontally surface or print them in preferably two pages (side by side) format. For any queries, suggestions, or collaborations regarding this project, please contact me at ivedantshrivastava@gmail.com.
 
 ## AR Application Design
 
