@@ -142,3 +142,6 @@ The most challenging part of this project has been the implementation of voice c
 
 Another lesson that I learned while making this app is that the voice commands could not place or render any 3D object or video on its own since they can only be rendered using tracked images, as the app can use only one type of anchor for its renderer function and image anchor is the only anchor that I could use here. I hope there is a way to include multiple type of anchors within the same application in the future so that the possibilities are more.
 
+# Author
+
+Vedant Shrivastava (GitHub: https://github.com/ivedants ; Email: ivedantshrivastava@gmail.com)
