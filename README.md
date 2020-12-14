@@ -24,7 +24,7 @@ This project won the Best Project (Public Choice) Award under the Augmented Real
 - [Getting Started](#getting-started)
 - [AR Application Design](#AR-application-design)
   - [App triggering AR](#app-triggering-ar)
-  - [Combines real and virtual worlds to deliver a wholesome experience](#combines-real-and-virtual-worlds-to-deliver-wholesome-experience)
+  - [Combines real and virtual worlds to deliver a wholesome experience](#combines-real-and-virtual-worlds-to-deliver-a-wholesome-experience)
 
 ## Getting Started
 
