@@ -6,7 +6,7 @@ On a personal note, I strongly believe that Augmented Reality is going to be a k
 
 **Award**
 
-This project won the Best Project (Public Choice) Award under the Augmented Reality Projects category at the Festival of Animation - Fall 2020 at The George Washington University, Washington D.C., USA.
+This project won the Best Project (Audience Choice) Award under the Augmented Reality Projects category at the Festival of Animation - Fall 2020 at The George Washington University, Washington D.C., USA.
 
 ## For a quick insight of this project, check out this small video: https://youtu.be/hn3tAm9B468
 
